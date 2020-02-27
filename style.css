@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+  }
+  .box {
+    float: left;
+    width: 25.33%;
+    padding: 50px;
+    border: 2px solid black;
+  }
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  #gameBoard{
+    visibility: hidden;
+  }
